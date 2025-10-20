@@ -4,9 +4,8 @@ Landing page sencilla y visual enfocada en el **bienestar y la psicología posit
 Este proyecto forma parte de mi portfolio personal como **Fullstack Junior Developer**, creado para practicar **HTML, CSS y control de versiones con Git**.
 
 ---
-
-## 💫 Demo
-👉 [Ver proyecto online](https://gabrielabarberafernandez.github.io/mindful-landing/)
+## 🌐 Demo en vivo
+👉 [Ver Mindful Landing](https://gabrielabarberafernandez.github.io/mindful-landing/)
 
 ---
 
