@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mindful Life — Crecimiento Consciente</title>
+  <meta name="description" content="Landing inspirada en bienestar y psicología positiva. Diseño responsive con HTML y CSS." />
+
+  <!-- Google Fonts (ejemplo) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- favicon opcional -->
+  <link rel="icon" href="img/favicon.png">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Mindful Life</a>
+      <nav class="nav" id="main-nav">
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+        <ul class="nav-list">
+          <li><a href="#features">Características</a></li>
+          <li><a href="#how">Cómo funciona</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a class="btn primary" href="#cta">Probar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Crece con intención</h1>
+          <p>Recursos y hábitos diarios para fomentar bienestar y psicología positiva.</p>
+          <a class="btn primary" id="cta" href="#features">Comenzar</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <img src="img/hero-illustration.png" alt="Ilustración de bienestar">
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="container features">
+      <h2>Qué encontrarás</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Hábitos diarios</h3>
+          <p>Pequeñas acciones para mejorar tu día a día.</p>
+        </article>
+        <article class="card">
+          <h3>Ejercicios de gratitud</h3>
+          <p>Prácticas rápidas para entrenar la mente positiva.</p>
+        </article>
+        <article class="card">
+          <h3>Recursos</h3>
+          <p>Guías y enlaces para profundizar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="how" class="container how">
+      <h2>Cómo funciona</h2>
+      <ol>
+        <li>Explora los recursos</li>
+        <li>Elige un hábito</li>
+        <li>Registra tu progreso</li>
+      </ol>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Sobre este proyecto</h2>
+      <p>Proyecto de práctica personal: diseño responsive, accesibilidad y animaciones con CSS.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Mindful Life — Proyecto personal · Psicología positiva & Frontend</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
