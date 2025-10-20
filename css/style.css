@@ -117,3 +117,17 @@ body{
   .hero-inner{ flex-direction:column-reverse; align-items:flex-start; }
   .grid{ grid-template-columns:1fr; }
 }
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* 🔸 Aquí agregas el estilo de la imagen del hero */
+.hero-img {
+  width: 300px;     /* cambia este valor según el tamaño que quieras */
+  height: auto;
+  display: block;
+  margin: 0 auto;   /* la centra horizontalmente */
+}
+
